@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Upgraded Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #667eea;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      width: 110px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 30px;
+      background: #fff;
+      color: #667eea;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ddd;
+    }
+
+    .features {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features h3 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .feature-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .feature {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+         align-items: center;
+        margin-top: 10px;
+      }
+    }
+      .hero h2 {
+        font-size: 30px;
+      }
+
+      .hero {
+  background: url('https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+      
+      .features h3 {
+        font-size: 26px;
+      }
+    
+.testimonials {
+  background: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+  gap: 30px;
+}
+
+.testimonial {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial h4 {
+  font-weight: bold;
+  color: #667eea;
+}
+      </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="logo"> AYODEJI GRAPHICS </h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My World</h2>
+    <p>We build with purpose & style.</p>
+    <a href="New.html" class="btn">Get Started</a>
+  </section>
+
+  <section class="features">
+    <h3>What We Offer</h3>
+    <div class="feature-box">
+      <div class="feature">
+        <h4>Clean Design</h4>
+        <p>Simple, clean, and effective layouts that impress users.</p>
+      </div>
+      <div class="feature">
+        <h4>Responsive Layout</h4>
+        <p>Mobile-first designs that look great on any screen.</p>
+      </div>
+      <div class="feature">
+        <h4>Fast Delivery</h4>
+        <p>We build fast, clean and modern websites in no time.</p>
+      </div>
+    </div>
+  </section>
+
+<section class="testimonials">
+  <h3>What Our Clients Say</h3>
+  <div class="testimonial-box">
+    <div class="testimonial">
+      <p>"MyBrand helped us take our website from 0 to 100 real quick! Super clean and responsive design!"</p>
+      <h4>- Sarah J.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Best experience ever. They delivered on time and the result was beyond my expectation."</p>
+      <h4>- Daniel K.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Top-notch creativity and communication. Highly recommend for any web project."</p>
+      <h4>- Aisha M.</h4>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; 2025 MyBrand. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
